@@ -22,10 +22,10 @@
       <div class="logo">ThinkfulCupid</div>
       <nav>
         <ul id="menu">
-          <li><a>Join</a></li>
-          <li><a>About</a></li>
-          <li><a>Download</a></li>
-          <li><a>Blog</a></li>
+          <li><a href="#join">Join</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="download">Download</a></li>
+          <li><a href="blog">Blog</a></li>
         </ul>
       </nav>
     </header>
@@ -33,61 +33,66 @@
     <main>
       <!-- Join -->
       <section id="join">
-        <img src="images/love.png" alt="ThinkfulCupid - love" />
+        <div>
+          <img class="img" src="images/love.png" alt="ThinkfulCupid - love" />
+        </div>
+        <h2>Find Your Perfect Match</h2>
         <!-- Add join form here -->
         <form>
-            <div class="row-flex">
-              <label for="email">Email</label>
-              <input
-                id="email"
-                type="email"
-                name="email"
-                placeholder="email@example.com"
-                autofocus
-                required
-              />
-            </div>
-            <div class="row-flex">
-              <label for="password">Create a password</label>
-              <input
-                id="password"
-                type="password"
-                name="password"
-                required
-                minlength="8"
-              />
-            </div>
-            <div class="row-flex">
-              <label for="username">Username</label>
-              <input
-                id="username"
-                type="text"
-                name="username"
-                required
-                minlength="8"
-              />
-            </div>
-            <div class="row-flex">
-              <label id="gender">I am a...</label>
-              <select>
-                <option value="0">Select your gender</option>
-                <option value="1">female</option>
-                <option value="2">male</option>
-                <option value="3">other</option>
-              </select>
-            </div>
-            <button type="submit">Join</button>
+          <div class="row-flex">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="email@example.com"
+              autofocus
+              required
+            />
+          </div>
+          <div class="row-flex">
+            <label for="password">Create a password</label>
+            <input
+              id="password"
+              type="password"
+              name="password"
+              required
+              minlength="8"
+            />
+          </div>
+          <div class="row-flex">
+            <label for="username">Username</label>
+            <input
+              id="username"
+              type="text"
+              name="username"
+              required
+              minlength="8"
+            />
+          </div>
+          <div class="row-flex">
+            <label id="gender">I am a...</label>
+            <select>
+              <option value="0">Select your gender</option>
+              <option value="1">female</option>
+              <option value="2">male</option>
+              <option value="3">other</option>
+            </select>
+          </div>
+          <button type="submit">Join</button>
         </form>
       </section>
 
       <!-- About -->
-      <section id="about" class="alternate-background">
+      <section id="about" class="alternate-background group">
         <h2>About</h2>
         <img
+        class="item img center"
           src="images/sunset-with-heart.png"
           alt="ThinkfulCupid - Sunset with heart"
         />
         <img
+        class="item img center"
           src="images/two-people-sunset-candles.png"
           alt="ThinkfulCupid - Two people with sunset and candles"
         />
@@ -104,7 +109,7 @@
       </section>
 
       <!-- Download -->
-      <section id="download">
+      <section id="download" class="group">
         <h2>Download the App</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
@@ -124,14 +129,14 @@
           </li>
         </ul>
 
-        <img src="images/download.png" alt="Thinkfulbnb - download" />
+        <img class="img" src="images/download.png" alt="Thinkfulbnb - download" />
       </section>
 
       <!-- Blog -->
-      <section id="blog" class="alternate-background">
+      <section id="blog" class="alternate-background group">
         <h2>Blog</h2>
 
-        <img src="images/blog-post-1.png" alt="Thinkfulbnb - blog post 1" />
+        <img class="img" src="images/blog-post-1.png" alt="Thinkfulbnb - blog post 1" />
         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
         <p>
           Sed vel scelerisque ex. Duis in pharetra neque, at tempus lorem.
@@ -140,7 +145,7 @@
           dapibus neque, sed vehicula neque tristique vestibulum.
         </p>
 
-        <img src="images/blog-post-2.png" alt="Thinkfulbnb - blog post 2" />
+        <img class="img" src="images/blog-post-2.png" alt="Thinkfulbnb - blog post 2" />
         <h3>Mauris eget nisl quis metus ultrices venenatis</h3>
         <p>
           Sed vel scelerisque ex. Duis in pharetra neque, at tempus lorem.
@@ -149,7 +154,7 @@
           dapibus neque, sed vehicula neque tristique vestibulum.
         </p>
 
-        <img src="images/blog-post-3.png" alt="Thinkfulbnb - blog post 3" />
+        <img class="img" src="images/blog-post-3.png" alt="Thinkfulbnb - blog post 3" />
         <h3>
           Fusce augue diam, sollicitudin at metus id, congue placerat neque
         </h3>
@@ -160,7 +165,7 @@
           dapibus neque, sed vehicula neque tristique vestibulum.
         </p>
 
-        <img src="images/blog-post-4.png" alt="Thinkfulbnb - blog post 4" />
+        <img class="img" src="images/blog-post-4.png" alt="Thinkfulbnb - blog post 4" />
         <h3>Aenean purus dui, aliquam vitae auctor vel</h3>
         <p>
           Sed vel scelerisque ex. Duis in pharetra neque, at tempus lorem.

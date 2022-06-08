@@ -48,12 +48,29 @@ main img {
 .row-flex {
   display: flex;
   flex-direction: row;
-  justify-content:space-between
+  justify-content: space-between;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 750px;
+  margin: 20px 0;
+  /* padding: 10px; */
 }
 
 .item {
   flex: 1;
-  margin: 10px;
+  margin: 10px 0px;
 }
 
 .item-double {
@@ -118,8 +135,6 @@ form input {
   margin-bottom: 20px;
   width: 180px;
 }
-
-
 
 form button {
   background-color: #83092e;
