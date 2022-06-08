@@ -45,6 +45,12 @@ main img {
   flex-direction: column;
 }
 
+.row-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between
+}
+
 .item {
   flex: 1;
   margin: 10px;
@@ -112,6 +118,8 @@ form input {
   margin-bottom: 20px;
   width: 180px;
 }
+
+
 
 form button {
   background-color: #83092e;
